@@ -47,6 +47,7 @@
 /* Begin PBXFileReference section */
 		09C8D1AC4C92298A7EB89B0A8315D20D /* ZZMediaClipper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZMediaClipper.debug.xcconfig; sourceTree = "<group>"; };
 		0BD6AF8BAED85732F188BE9CFDF7B695 /* Pods-ZZMediaClipper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZMediaClipper_Tests-dummy.m"; sourceTree = "<group>"; };
+		0E1B081A449D4FAD47FA5FC543C2C42C /* ZZMediaClipper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZZMediaClipper.framework; sourceTree = "<group>"; };
 		15CD3FF343502C8C1FF2D772FAF84869 /* Pods-ZZMediaClipper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZMediaClipper_Tests-Info.plist"; sourceTree = "<group>"; };
 		1906AC09C93B3788F212054C85A03C80 /* Pods-ZZMediaClipper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZMediaClipper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		289B550240F9F3A4CB3581F4109ED702 /* Pods-ZZMediaClipper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZMediaClipper_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		F299B9A787719E4FA2A05341D6FB8155 /* Pods-ZZMediaClipper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZMediaClipper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5ACF7ACF8FC9DEEFE606F2D85DD6F3C /* Pods-ZZMediaClipper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZMediaClipper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F8196012356BF2AC7ABB3DEA22A1A084 /* ZZMediaClipper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZMediaClipper.release.xcconfig; sourceTree = "<group>"; };
-		F869B291A3A3BBE1D641783201A5DDBA /* ZZMediaClipper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZZMediaClipper.framework; path = ios/ZZMediaClipper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 		11A9CC57F422A3D78B7F4B3B81F5F859 /* ZZMediaClipper */ = {
 			isa = PBXGroup;
 			children = (
-				DD611F690A381B1C100787FC606D82B1 /* Frameworks */,
+				4FAC52E74EA4370D2D239C1AB5377796 /* Frameworks */,
 				B4754F1B568A0247A60D8D2E1F3A547E /* Pod */,
 				570F2F6867405CBE3F9233E5F7CA8DD7 /* Support Files */,
 			);
@@ -125,6 +125,14 @@
 				5AC851FE63EC6AC0EAEF021050EF7B90 /* Pods_ZZMediaClipper_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4FAC52E74EA4370D2D239C1AB5377796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B081A449D4FAD47FA5FC543C2C42C /* ZZMediaClipper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5004C7AE76B592A91106865ACC3F6CFC /* Development Pods */ = {
@@ -185,14 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DD611F690A381B1C100787FC606D82B1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F869B291A3A3BBE1D641783201A5DDBA /* ZZMediaClipper.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -7,11 +7,8 @@
 //
 
 #import "VideoCutViewController.h"
-#import <ZZMediaClipper/ZZVideoCropperView.h>
-#import <ZZMediaClipper/ZZVideoExportTool.h>
-#import <ZZMediaClipper/ZZVideoTimeClipView.h>
-#import <ZZMediaClipper/UIView+ZZAdd.h>
-
+#import <ZZMediaClipper/ZZMediaCliper.h>
+#import "ZZVideoTimeClipView.h"
 
 @interface VideoCutViewController () <ZZVideoTimeClipViewDelegate,ZZVideoCropperViewDelegate> {
     NSString *_videoFilePath;

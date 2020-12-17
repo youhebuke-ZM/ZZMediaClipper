@@ -16,6 +16,7 @@
 		5873F231258B526B004DC14C /* ZZImageClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5873F22A258B526B004DC14C /* ZZImageClipView.m */; };
 		5873F24C258B5C0F004DC14C /* DanielWu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5873F24A258B5C0E004DC14C /* DanielWu.jpg */; };
 		5873F24D258B5C0F004DC14C /* Demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5873F24B258B5C0F004DC14C /* Demo.mp4 */; };
+		5873F2BC258B688E004DC14C /* ZZVideoTimeClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5873F2BA258B688E004DC14C /* ZZVideoTimeClipView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -59,6 +60,8 @@
 		5873F22C258B526B004DC14C /* ZZAngleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAngleScrollView.h; sourceTree = "<group>"; };
 		5873F24A258B5C0E004DC14C /* DanielWu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DanielWu.jpg; sourceTree = "<group>"; };
 		5873F24B258B5C0F004DC14C /* Demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Demo.mp4; sourceTree = "<group>"; };
+		5873F2BA258B688E004DC14C /* ZZVideoTimeClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZVideoTimeClipView.m; sourceTree = "<group>"; };
+		5873F2BB258B688E004DC14C /* ZZVideoTimeClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZVideoTimeClipView.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZZMediaClipper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMediaClipper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -156,6 +159,8 @@
 				5873F227258B526A004DC14C /* ImageCutViewController.m */,
 				5873F223258B526A004DC14C /* VideoCutViewController.h */,
 				5873F224258B526A004DC14C /* VideoCutViewController.m */,
+				5873F2BB258B688E004DC14C /* ZZVideoTimeClipView.h */,
+				5873F2BA258B688E004DC14C /* ZZVideoTimeClipView.m */,
 				5873F22C258B526B004DC14C /* ZZAngleScrollView.h */,
 				5873F228258B526A004DC14C /* ZZAngleScrollView.m */,
 				5873F229258B526A004DC14C /* ZZImageClipView.h */,
@@ -376,6 +381,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ZZMEDIACLIPERAppDelegate.m in Sources */,
 				5873F22F258B526B004DC14C /* ImageCutViewController.m in Sources */,
+				5873F2BC258B688E004DC14C /* ZZVideoTimeClipView.m in Sources */,
 				5873F230258B526B004DC14C /* ZZAngleScrollView.m in Sources */,
 				5873F22D258B526B004DC14C /* VideoCutViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZMEDIACLIPERViewController.m in Sources */,

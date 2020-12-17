@@ -1,5 +1,5 @@
 PODS:
-  - ZZMediaClipper (0.1.1)
+  - ZZMediaClipper (1.0.0)
 
 DEPENDENCIES:
   - ZZMediaClipper (from `../ZZMediaClipper`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../ZZMediaClipper"
 
 SPEC CHECKSUMS:
-  ZZMediaClipper: 5560f7733491c5b5894bf4483f26317f9250fb40
+  ZZMediaClipper: d67a0123516ed83637b68fd1d1a129b3fc5eb8a3
 
 PODFILE CHECKSUM: f189b6a5ad805430f3d576f406ac4c6c5e250f85
 
