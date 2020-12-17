@@ -1,0 +1,16 @@
+PODS:
+  - ZZMediaClipper (0.1.1)
+
+DEPENDENCIES:
+  - ZZMediaClipper (from `../ZZMediaClipper`)
+
+EXTERNAL SOURCES:
+  ZZMediaClipper:
+    :path: "../ZZMediaClipper"
+
+SPEC CHECKSUMS:
+  ZZMediaClipper: 5560f7733491c5b5894bf4483f26317f9250fb40
+
+PODFILE CHECKSUM: f189b6a5ad805430f3d576f406ac4c6c5e250f85
+
+COCOAPODS: 1.10.0

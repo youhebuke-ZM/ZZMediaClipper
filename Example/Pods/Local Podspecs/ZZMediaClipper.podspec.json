@@ -1,0 +1,20 @@
+{
+  "name": "ZZMediaClipper",
+  "version": "0.1.1",
+  "summary": "视频裁剪,图片裁剪",
+  "authors": {
+    "zz": "409775261@qq.com"
+  },
+  "homepage": "https://github.com/youhebuke-ZM/ZZMediaClipperCode",
+  "description": "视频按比例裁剪，分时段裁剪。拖图片按选中区域裁剪，旋转角度裁剪，按比例裁剪。",
+  "frameworks": "UIKit",
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "vendored_frameworks": "ios/ZZMediaClipper.framework"
+  }
+}

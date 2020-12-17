@@ -1,0 +1,6 @@
+framework module ZZMediaClipper {
+  umbrella header "ZZMediaClipper-umbrella.h"
+
+  export *
+  module * { export * }
+}
